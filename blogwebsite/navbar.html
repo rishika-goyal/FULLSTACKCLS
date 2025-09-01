@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Navbar</title>
+  <style>
+    
+    .navbar{
+      display: flex;
+      justify-content: space-between; 
+      align-items: center;
+      background-color: #809bb0;
+      padding: 15px;
+    }
+    .logo{
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+    }
+    .nav-links a{
+      margin-left: 80px;
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+    }
+    .nav-links a:hover{
+      text-decoration: underline;
+    }
+    .search-container{
+      margin-left: 0px;
+    }
+    .search-container input[type="text"] {
+      width: 400px; 
+      padding: 3px;
+      border: none; 
+      border-radius: 4px; 
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="logo">CODING LAB</div>
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">About</a>
+        <a href="#">ContactUs</a>
+    </div>
+    <div class="search-container">
+        <input type="text" placeholder="Search...">
+        <button>Search</button>
+    </div>
+  </div>
+
+</body>
+</html>
